@@ -20,4 +20,24 @@ public class AppTest {
 		assertEquals(expected,actual);
 		
 	}
+	@Test
+	public void testWithNegative()
+	{
+		Arthimetic a=new Arthimetic();
+		
+		int expected=-40;
+		int actual=a.sum(-20, -20);
+		assertEquals(expected,actual);
+		
+	}
+	@Test
+	public void testWithZeros()
+	{
+		Arthimetic a=new Arthimetic();
+		
+		int expected=0;
+		int actual=a.sum(0, 0);
+		assertEquals(expected,actual);
+		
+	}
 }
