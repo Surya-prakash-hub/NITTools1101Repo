@@ -6,4 +6,7 @@ public class Payment {
 	{
 		return "Do Card Payment is Done..";
 	}
+	public String doUPIPayment() {
+		return "Do UPI payment is done";
+	}
 }
