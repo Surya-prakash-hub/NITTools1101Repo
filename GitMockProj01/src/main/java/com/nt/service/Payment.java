@@ -10,9 +10,16 @@ public class Payment {
 		return "Do UPI payment is done";
 	}
 	
+
 	public String PayPal(String ulr)
 	{
 		return "PayPal integration is done";
+	}
+
+	public String enableBharatPay()
+	{
+		// Bharatpay payment is going on.
+		return "BharatPay is DOne";
 		
 	}
 }
