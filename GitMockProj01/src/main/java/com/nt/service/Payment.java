@@ -9,4 +9,10 @@ public class Payment {
 	public String doUPIPayment() {
 		return "Do UPI payment is done";
 	}
+	
+	public String PayPal(String ulr)
+	{
+		return "PayPal integration is done";
+		
+	}
 }
